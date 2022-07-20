@@ -1,5 +1,5 @@
 <?
 
-$to = "miminwa@kikicard.shop";
+$to = "jambrow@kikicard.shop";
 
 ?>
