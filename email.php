@@ -1,5 +1,5 @@
 <?
 
-$to = "orojaink2022@protonmail.com";
+$to = "graceandglory247@yandex.com";
 
 ?>
